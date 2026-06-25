@@ -1,0 +1,2342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <!-- swiper cdn  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="top-info-bar">
+            <div class="main-container flex align-center">
+                <div class="top-info-bar-buttons flex">
+                    <div class="small-body-p"><a href="">About Us</a></div>
+                    <div class="small-body-p"><a href="">My Account</a></div>
+                    <div class="small-body-p"><a href="">Wishlist</a></div>
+                    <div class="small-body-p"><a href="">Order Tracking</a></div>
+                </div>
+
+                <div class="top-bar-banner-text flex align-center">100% Secure delivery without contacting the courier
+                </div>
+
+                <div class="top-info-bar-contact flex align-center">
+                    <div class="small-body-p">Need help? Call Us: <a href="">+1800900122</a></div>
+                    <div class="small-body-p">
+                        <select name="english" id="" class="small-body-p">
+                            <option value="english">English</option>
+                            <option value="Russian">Russian</option>
+                        </select>
+                    </div>
+                    <div class="small-body-p">
+                        <select name="english" id="" class="small-body-p">
+                            <option value="USD">USD</option>
+                            <option value="Inr">Inr</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="navbar flex main-container align-center">
+            <button class="hamburger flex align-center"><img src="assets/hamburger-menu.svg" alt=""/></button>
+            <div><img src="assets/Nest-nav-logo.png" alt="Nest-logo" /></div>
+            <div class="navbar-input"><input type="text" placeholder="Search for products..."><button
+                    class="button-text">Search</button></div>
+            <div class="navbar-right-container flex align-center">
+                <div><button class="vendor-button">Become a Vendor <span><img src="assets/green-arrow-right.svg"
+                                alt="arrow-right" /></span></button></div>
+                <div class="user-account-btns compare">
+                    <button class="flex align-center user-button-text"><span><img src="assets/recycle.png"
+                                alt="Compare" /></span>Compare</button>
+                </div>
+
+
+                <div class="user-account-btns wishlist">
+                    <button class="flex align-center user-button-text"><span><img src="assets/heart.svg"
+                                alt="Wishlist" /></span><span>Wishlist</span></button>
+                </div>
+
+
+                <div class="user-account-btns cart">
+                    <button class="flex align-center user-button-text"><span><img src="assets/dark-cart.svg"
+                                alt="Cart" /></span><span>Cart</span></button>
+                </div>
+
+
+                <div class="user-account-btns account">
+                    <button class="flex align-center user-button-text"><span><img src="assets/dark-user.svg"
+                                alt="Account" /></span>Account</button>
+                </div>
+            </div>
+        </div>
+        <div class="nav-categories-wrapper">
+            <div class="main-container flex nav-categories-buttons-container">
+                <div class="nav-categories-left flex align-center">
+                    <div>
+                        <button class="category-button nav-items flex align-center"><span><img
+                                    src="assets/categories-icon.svg" alt="categories-icon" /></span>Browse All
+                            Categories <span><img src="assets/arrow-down.svg" alt=""/></span></button>
+                    </div>
+                    <div>
+                        <button class="nav-items flex align-center nav-items hot-deals">
+                            <span>
+                                <img src="assets/green-fire.svg" alt="hot-deals">
+                            </span>Hot Deals</button>
+                    </div>
+                </div>
+
+                <div class="nav-categories-center flex align-center">
+                    <ul class="flex align-center">
+                        <li><a href="">Home<span><img src="assets/dark-arrow-down.svg" alt=""/ /></span></a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Shop<span><img src="assets/dark-arrow-down.svg" alt=""/ /></span></a></li>
+                        <li><a href="">Vendors<span><img src="assets/dark-arrow-down.svg" alt=""/ /></span></a></li>
+                        <li><a href="">Mega Menu<span><img src="assets/dark-arrow-down.svg" alt=""/ /></span></a></li>
+                        <li><a href="">Blog<span><img src="assets/dark-arrow-down.svg" alt=""/ /></span></a></li>
+                        <li><a href="">Pages<span><img src="assets/dark-arrow-down.svg" alt=""/ /></span></a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class=" flex align-center contact-details-container">
+                    <span><img src="assets/headphones.svg" alt=""/ /></span>
+                    <div class="contact-details ">
+                        <p class="top-bar-banner-text contact-number">1900888123</p>
+                        <p class="small-body-p">24/7 Support Center</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- sidebar menu  -->
+        <aside class="sidebar-menu">
+            <div class="menu-overlay close-sidebar-control"></div>
+            <div class="sidebar">
+                <button class="close-sidebar close-sidebar-control"><img src="assets/cross-green.svg" alt=""/></button>
+                <div class="sidebar-wrapper flex">
+                    <button class="category-button nav-items flex align-center">
+                        <span><img src="assets/categories-icon.svg" alt="categories-icon">
+                        </span>Browse All Categories <span><img src="assets/arrow-down.svg" alt=""/></span>
+                    </button>
+
+                    <ul class="sidebar-list">
+                        <li><a href="" class="nav-items">Home</a></li>
+                        <li><a href="" class="nav-items">About</a></li>
+                        <li><a href="" class="nav-items">Shop</a></li>
+                        <li><a href="" class="nav-items">Vendors</a></li>
+                        <li><a href="" class="nav-items">Mega Menu</a></li>
+                        <li><a href="" class="nav-items">Blog</a></li>
+                        <li><a href="" class="nav-items">Pages</a></li>
+                        <li><a href="" class="nav-items">Order Tracking</a></li>
+                        <li><a href="" class="nav-items">Contact</a></li>
+                    </ul>
+                    <button class="vendor-button">Become a Vendor <span><img src="assets/green-arrow-right.svg"
+                                alt="arrow-right"></span></button>
+                    <div class="user-account-btns">
+                        <button class="flex align-center user-button-text"><span><img src="assets/recycle.png"
+                                    alt="Compare"></span>Compare</button>
+                    </div>
+                    <div class="user-account-btns">
+                        <button class="flex align-center user-button-text"><span><img src="assets/dark-user.svg"
+                                    alt="Account"></span>Account</button>
+                    </div>
+                </div>
+            </div>
+
+        </aside>
+    </header>
+    <main>
+        <!-- hero section  -->
+        <section class="main-container hero-container">
+            <div class="hero-swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <div class="slide1 hero swiper-slide">
+                        <div class="hero-title-container">
+                            <h1 class="hero-heading">Fresh Vegetables Big discount</h1>
+                            <h2 class="hero-tagline">Save up to 50% off on your first order</h2>
+                            <div class="hero-input"><input type="text"
+                                    placeholder="Your email address"><button>Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide2 hero swiper-slide">
+                        <div class="hero-title-container">
+                            <h1 class="hero-heading">Pure Coffe Big discount</h1>
+                            <h2 class="hero-tagline">Save up to 50% off on your first order</h2>
+                            <div class="hero-input"><input type="text"
+                                    placeholder="Your email address"><button>Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="hswiper-pagination"></div>
+
+                <!-- <div class="heroswiper-pagination"></div> -->
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+
+        <!-- featuted category -->
+        <section class="main-container featured-section">
+            <div class="featured-category-top flex">
+                <div class="featured-category-right flex ">
+                    <h2 class="section-heading">Featured Categories</h2>
+                    <div class="featured-tab-btns-container flex align-center">
+                        <button class="tab-btns">Cake & Milk</button>
+                        <button class="tab-btns">Coffes & Teas</button>
+                        <button class="tab-btns">Pet Foods</button>
+                        <button class="tab-btns">Vegetables</button>
+                    </div>
+                </div>
+                <div class="featured-slider-buttons-container flex align-center">
+                    <button class="featuredswiper-button-prev"><img src="assets/arrow-left.svg"
+                            alt="previous-button" /></button>
+                    <button class="featuredswiper-button-next"><img src="assets/arrow-right.svg"
+                            alt="next-button" /></button>
+                </div>
+            </div>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- category cards  -->
+
+                    <!-- Slides -->
+                    <div class="category-card flex align-center swiper-slide light-green-bg">
+                        <div class="category-card-wrapper">
+                            <div class="category-card-img">
+                                <img src="assets/burger.png" alt="product-image">
+                            </div>
+                            <div class="category-card-text">
+                                <div>
+                                    <h4 class="nav-items popular-card-heading">Read Apple</h4>
+                                </div>
+                                <p class="user-button-text">10 items</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category-card flex align-center swiper-slide peach-green-bg ">
+                        <div class="category-card-wrapper">
+                            <div class="category-card-img">
+                                <img src="assets/kiwi.png" alt="product-image">
+                            </div>
+                            <div class="category-card-text">
+                                <div>
+                                    <h4 class="nav-items popular-card-heading">Read Apple</h4>
+                                </div>
+                                <p class="user-button-text">10 items</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="category-card flex align-center swiper-slide green-bg">
+                        <div class="category-card-wrapper">
+                            <div class="category-card-img">
+                                <img src="assets/flour.png" alt="product-image">
+                            </div>
+                            <div class="category-card-text">
+                                <div>
+                                    <h4 class="nav-items popular-card-heading">Read Apple</h4>
+                                </div>
+                                <p class="user-button-text">10 items</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category-card flex align-center swiper-slide beige-bg">
+                        <div class="category-card-wrapper">
+                            <div class="category-card-img">
+                                <img src="assets/kiwi.png" alt="product-image">
+                            </div>
+                            <div class="category-card-text">
+                                <div>
+                                    <h4 class="nav-items popular-card-heading">Read Apple</h4>
+                                </div>
+                                <p class="user-button-text">10 items</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category-card flex align-center swiper-slide light-pink-bg">
+
+
+                        <div class="category-card-wrapper">
+                            <div class="category-card-img">
+                                <img src="assets/apple.png" alt="product-image">
+                            </div>
+                            <div class="category-card-text">
+                                <div>
+                                    <h4 class="nav-items popular-card-heading">Read Apple</h4>
+                                </div>
+                                <p class="user-button-text">10 items</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category-card flex align-center swiper-slide beige-bg ">
+                        <div class="category-card-wrapper">
+                            <div class="category-card-img">
+                                <img src="assets/cabbage.png" alt="product-image">
+                            </div>
+                            <div class="category-card-text">
+                                <div>
+                                    <h4 class="nav-items popular-card-heading">Read Apple</h4>
+                                </div>
+                                <p class="user-button-text">10 items</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category-card flex align-center swiper-slide peach-green-bg">
+                        <div class="category-card-wrapper">
+                            <div class="category-card-img">
+                                <img src="assets/blackberry.png " alt="product-image">
+                            </div>
+                            <div class="category-card-text">
+                                <div>
+                                    <h4 class="nav-items popular-card-heading">Read Apple</h4>
+                                </div>
+                                <p class="user-button-text">10 items</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category-card flex align-center swiper-slide light-green-bg">
+                        <div class="category-card-wrapper">
+                            <div class="category-card-img">
+                                <img src="assets/apple.png" alt="product-image">
+                            </div>
+                            <div class="category-card-text">
+                                <div>
+                                    <h4 class="nav-items popular-card-heading">Read Apple</h4>
+                                </div>
+                                <p class="user-button-text">10 items</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category-card flex align-center swiper-slide light-pink-bg">
+                        <div class="category-card-wrapper">
+                            <div class="category-card-img">
+                                <img src="assets/apple.png" alt="product-image">
+                            </div>
+                            <div class="category-card-text">
+                                <div>
+                                    <h4 class="nav-items popular-card-heading">Read Apple</h4>
+                                </div>
+                                <p class="user-button-text">10 items</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category-card flex align-center swiper-slide green-bg ">
+                        <div class="category-card-wrapper">
+                            <div class="category-card-img">
+                                <img src="assets/strawberrry.png" alt="product-image">
+                            </div>
+                            <div class="category-card-text">
+                                <div>
+                                    <h4 class="nav-items popular-card-heading">Read Apple</h4>
+                                </div>
+                                <p class="user-button-text">10 items</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category-card flex align-center swiper-slide light-pink-bg">
+                        <div class="category-card-wrapper">
+                            <div class="category-card-img">
+                                <img src="assets/blackberry.png" alt="product-image">
+                            </div>
+                            <div class="category-card-text">
+                                <div>
+                                    <h4 class="nav-items popular-card-heading">Read Apple</h4>
+                                </div>
+                                <p class="user-button-text">10 items</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- banners-section  -->
+        <section class="main-container">
+            <div class="banners-section flex">
+                <div class="banner-card">
+                    <div class="banner-card-body flex">
+                        <h2>Everyday Fresh & Clean with Our Products</h2>
+                        <button class="buttons-text flex align-center shop-now-btn">Shop Now<span
+                                class="flex align-center"><img src="assets/arrow-right.svg" alt=""/></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="banner-card banner2">
+                    <div class="banner-card-body flex">
+                        <h2>Make your Breakfast Healthy and Easy</h2>
+                        <button class="buttons-text flex align-center shop-now-btn">Shop Now<span
+                                class="flex align-center"><img src="assets/arrow-right.svg" alt=""/></span>
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="banner-card banner3">
+                    <div class="banner-card-body flex">
+                        <h2>The best Organic Products Online</h2>
+                        <button class="buttons-text flex align-center shop-now-btn">Shop Now<span
+                                class="flex align-center"><img src="assets/arrow-right.svg" alt=""/></span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- popular-propducts section  -->
+        <section class="main-container">
+            <!-- popular products  -->
+            <div class="popular-cards-container">
+                <div class="popular-cards-top flex align">
+                    <h2 class="section-heading">Popular Products</h2>
+                    <div class="popular-cards-tab-buttons flex align-center">
+                        <button class="tab-btns" data-tab="all">All</button>
+                        <button class="tab-btns" data-tab="baking">Baking material</button>
+                        <button class="tab-btns" data-tab="fresh">Fresh Fruits</button>
+                        <button class="tab-btns" data-tab="milk">Milks & Dairies</button>
+                        <button class="tab-btns" data-tab="meat">Meats</button>
+                        <button class="tab-btns" data-tab="vegetables">Vegetables</button>
+                    </div>
+                </div>
+                <div class="popular-cards-wrapper popular-cards-wrapper-active" data-tab="all">
+                    <!-- card 1 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/dark-green-shale.jpg" alt=""/></div>
+                        <div class=" popular-discount popular-discount-percent">66%</div>
+                        <div class=" popular-discount popular-discount-sale">Sale</div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price flex align-center"><span>$22.85</span><span>$24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/desserts.jpg" alt=""/></div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price popular-card-full-price"><span>$22.85 - $24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/yellow-pukka.png" alt=""/></div>
+                        <div class=" popular-discount popular-discount-percent">66%</div>
+                        <div class=" popular-discount popular-discount-sale">Sale</div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price flex align-center"><span>$22.85</span><span>$24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 4 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/orange-sahale.jpg" alt=""/></div>
+                        <div class=" popular-discount popular-discount-percent">66%</div>
+                        <div class=" popular-discount popular-discount-sale">Sale</div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price flex align-center"><span>$22.85</span><span>$24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 5 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/coconut-flakes.png" alt=""/></div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price popular-card-full-price"><span>$22.85 - $24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 6 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/cafe-altura.png" alt=""/></div>
+                        <div class=" popular-discount popular-discount-percent">66%</div>
+                        <div class=" popular-discount popular-discount-sale">Sale</div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price flex align-center"><span>$22.85</span><span>$24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 7 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/dandy-blend.png" alt=""/></div>
+                        <div class=" popular-discount popular-discount-percent">66%</div>
+                        <div class=" popular-discount popular-discount-sale">Sale</div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price flex align-center"><span>$22.85</span><span>$24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 8 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/pistachio-butter.png" alt=""/></div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price popular-card-full-price"><span>$22.85 - $24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 9 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/yuja-niacin.png" alt=""/></div>
+                        <div class=" popular-discount popular-discount-percent">66%</div>
+                        <div class=" popular-discount popular-discount-sale">Sale</div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price flex align-center"><span>$22.85</span><span>$24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 10 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/veggie-pops.png" alt=""/></div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price popular-card-full-price"><span>$22.85 - $24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="popular-cards-wrapper" data-tab="baking">
+                    <!-- card 2 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/desserts.jpg" alt=""/></div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price popular-card-full-price"><span>$22.85 - $24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/yellow-pukka.png" alt=""/></div>
+                        <div class=" popular-discount popular-discount-percent">66%</div>
+                        <div class=" popular-discount popular-discount-sale">Sale</div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price flex align-center"><span>$22.85</span><span>$24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 5 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/coconut-flakes.png" alt=""/></div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price popular-card-full-price"><span>$22.85 - $24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 8 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/pistachio-butter.png" alt=""/></div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price popular-card-full-price"><span>$22.85 - $24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 10 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/veggie-pops.png" alt=""/></div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price popular-card-full-price"><span>$22.85 - $24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="popular-cards-wrapper " data-tab="fresh">
+                    <!-- card 1 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/dark-green-shale.jpg" alt=""/></div>
+                        <div class=" popular-discount popular-discount-percent">66%</div>
+                        <div class=" popular-discount popular-discount-sale">Sale</div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price flex align-center"><span>$22.85</span><span>$24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/desserts.jpg" alt=""/></div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price popular-card-full-price"><span>$22.85 - $24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/yellow-pukka.png" alt=""/></div>
+                        <div class=" popular-discount popular-discount-percent">66%</div>
+                        <div class=" popular-discount popular-discount-sale">Sale</div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price flex align-center"><span>$22.85</span><span>$24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 5 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/coconut-flakes.png" alt=""/></div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price popular-card-full-price"><span>$22.85 - $24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 6 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/cafe-altura.png" alt=""/></div>
+                        <div class=" popular-discount popular-discount-percent">66%</div>
+                        <div class=" popular-discount popular-discount-sale">Sale</div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price flex align-center"><span>$22.85</span><span>$24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="popular-cards-wrapper" data-tab="milk">
+                    <!-- card 1 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/dark-green-shale.jpg" alt=""/></div>
+                        <div class=" popular-discount popular-discount-percent">66%</div>
+                        <div class=" popular-discount popular-discount-sale">Sale</div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price flex align-center"><span>$22.85</span><span>$24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/desserts.jpg" alt=""/></div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price popular-card-full-price"><span>$22.85 - $24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 8 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/pistachio-butter.png" alt=""/></div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price popular-card-full-price"><span>$22.85 - $24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 9 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/yuja-niacin.png" alt=""/></div>
+                        <div class=" popular-discount popular-discount-percent">66%</div>
+                        <div class=" popular-discount popular-discount-sale">Sale</div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price flex align-center"><span>$22.85</span><span>$24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 10 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/veggie-pops.png" alt=""/></div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price popular-card-full-price"><span>$22.85 - $24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="popular-cards-wrapper" data-tab="meat">
+
+                    <!-- card 2 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/desserts.jpg" alt=""/></div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price popular-card-full-price"><span>$22.85 - $24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/yellow-pukka.png" alt=""/></div>
+                        <div class=" popular-discount popular-discount-percent">66%</div>
+                        <div class=" popular-discount popular-discount-sale">Sale</div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price flex align-center"><span>$22.85</span><span>$24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 5 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/coconut-flakes.png" alt=""/></div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price popular-card-full-price"><span>$22.85 - $24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 6 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/cafe-altura.png" alt=""/></div>
+                        <div class=" popular-discount popular-discount-percent">66%</div>
+                        <div class=" popular-discount popular-discount-sale">Sale</div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price flex align-center"><span>$22.85</span><span>$24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 10 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/veggie-pops.png" alt=""/></div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price popular-card-full-price"><span>$22.85 - $24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="popular-cards-wrapper" data-tab="vegetables">
+                    <!-- card 1 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/dark-green-shale.jpg" alt=""/></div>
+                        <div class=" popular-discount popular-discount-percent">66%</div>
+                        <div class=" popular-discount popular-discount-sale">Sale</div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price flex align-center"><span>$22.85</span><span>$24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/desserts.jpg" alt=""/></div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price popular-card-full-price"><span>$22.85 - $24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 5 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/coconut-flakes.png" alt=""/></div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price popular-card-full-price"><span>$22.85 - $24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 8 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/pistachio-butter.png" alt=""/></div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price popular-card-full-price"><span>$22.85 - $24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 10 -->
+                    <div class="popular-card">
+                        <div class="popular-card-img-container"><img src="assets/veggie-pops.png" alt=""/></div>
+                        <div class="popular-card-body">
+                            <p class="popular-card-category">Fresh Seafood</p>
+                            <h3 class="popular-card-heading nav-items">All Natural Style Chicken Meatballs</h3>
+                            <div class="rating flex">
+                                <div class="rating-stars flex">
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price popular-card-full-price"><span>$22.85 - $24.80</span>
+                                </div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- daily best sellers  -->
+        <section class="main-container">
+            <div class="daily-best-sells-container flex">
+                <div class="daily-best-sells-left">
+                    <div class="daily-section-top flex align-center">
+                        <div class="section-heading">Daily Best Sells</div>
+                        <div class="daily-tab-buttons flex">
+                            <button>Featured</button>
+                            <button>Popular</button>
+                            <button>New added</button>
+                        </div>
+                    </div>
+                    <div class="best-sell-banner-card">
+                        <h2 class="section-heading">Bring nature
+                            into your
+                            home</h2>
+                        <button class="buttons-text flex align-center shop-now-btn ">Shop Now<span
+                                class="flex align-center"><img src="assets/arrow-right.svg" alt=""/></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="daily-best-sells-right">
+                    <div class="best-sell-tab-buttons-container flex">
+                        <div class="best-sell-slider-buttons flex align-center">
+                            <button class="slider-arrow-btns best-seller-prev"><img src="assets/arrow-left.svg"
+                                    alt="arrow-left" /></button>
+                            <button class="slider-arrow-btns best-seller-next"><img src="assets/arrow-right.svg"
+                                    alt="arrow-right" /></button>
+                        </div>
+                        <div class="best-sell-tab-buttons-wrapper flex">
+                            <button>All</button>
+                            <button>Deals Of the Day</button>
+                            <button>Beauty</button>
+                            <button>Bread & Juice</button>
+                            <button>Drinks</button>
+                            <button>Milks</button>
+                        </div>
+                    </div>
+                    <div class="best-sell-cards-container ">
+                        <!-- Additional required wrapper -->
+                        <div class="best-sell-swiper">
+                            <div class="swiper-wrapper">
+                                <!-- slide1 -->
+                                <div class="popular-card best-sell-card swiper-slide">
+                                    <div class="popular-card-img-container"><img src="assets/dandy-blend.jpg" alt=""/>
+                                    </div>
+                                    <div class=" popular-discount popular-discount-percent best-sell-card-percent">66%
+                                    </div>
+                                    <div class=" popular-discount popular-discount-sale">Sale</div>
+                                    <div class="popular-card-body best-sell-card-body">
+                                        <p class="popular-card-category">Fresh Fruit</p>
+                                        <h3 class="popular-card-heading nav-items">Seeds of Change Organic Red
+                                            Rice</h3>
+                                        <div class="rating flex">
+                                            <div class="rating-stars flex">
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                            </div>
+                                            <span>1</span>
+                                        </div>
+                                        <div class="popular-card-price best-sell-card-price">
+                                            <span>$22.85</span><span>$24.80</span>
+                                        </div>
+                                        <div class="quantity-bar"><span></span></div>
+                                        <div class="best-sell-card-quantity flex">
+                                            <p class="small-body-p">Sold : 108 / 387</p>
+                                            <p class="small-body-p">27.91%</p>
+                                        </div>
+                                        <button class="add-to-cart-btn flex align-center"><img
+                                                src="assets/white-cart.png" alt="cart"> Add to cart</button>
+                                    </div>
+                                </div>
+
+                                <!-- slide2 -->
+                                <div class="popular-card best-sell-card swiper-slide">
+                                    <div class="popular-card-img-container"><img src="assets/veggie-pops.png" alt=""/>
+                                    </div>
+                                    <div class=" popular-discount popular-discount-percent best-sell-card-percent">66%
+                                    </div>
+                                    <div class=" popular-discount popular-discount-sale">Sale</div>
+                                    <div class="popular-card-body best-sell-card-body">
+                                        <p class="popular-card-category">Fresh Fruit</p>
+                                        <h3 class="popular-card-heading nav-items">Seeds of Change Organic Red
+                                            Rice</h3>
+                                        <div class="rating flex">
+                                            <div class="rating-stars flex">
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                            </div>
+                                            <span>1</span>
+                                        </div>
+                                        <div class="popular-card-price best-sell-card-price">
+                                            <span>$22.85</span><span>$24.80</span>
+                                        </div>
+                                        <div class="quantity-bar"><span></span></div>
+                                        <div class="best-sell-card-quantity flex">
+                                            <p class="small-body-p">Sold : 108 / 387</p>
+                                            <p class="small-body-p">27.91%</p>
+                                        </div>
+                                        <button class="add-to-cart-btn flex align-center"><img
+                                                src="assets/white-cart.png" alt="cart"> Add to cart</button>
+                                    </div>
+                                </div>
+
+                                <!-- slide3 -->
+                                <div class="popular-card best-sell-card swiper-slide">
+                                    <div class="popular-card-img-container"><img src="assets/dark-shahle.png" alt=""/>
+                                    </div>
+                                    <div class=" popular-discount popular-discount-percent best-sell-card-percent">66%
+                                    </div>
+                                    <div class=" popular-discount popular-discount-sale">Sale</div>
+                                    <div class="popular-card-body best-sell-card-body">
+                                        <p class="popular-card-category">Fresh Fruit</p>
+                                        <h3 class="popular-card-heading nav-items">Seeds of Change Organic Red
+                                            Rice</h3>
+                                        <div class="rating flex">
+                                            <div class="rating-stars flex">
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                            </div>
+                                            <span>1</span>
+                                        </div>
+                                        <div class="popular-card-price best-sell-card-price">
+                                            <span>$22.85</span><span>$24.80</span>
+                                        </div>
+                                        <div class="quantity-bar"><span></span></div>
+                                        <div class="best-sell-card-quantity flex">
+                                            <p class="small-body-p">Sold : 108 / 387</p>
+                                            <p class="small-body-p">27.91%</p>
+                                        </div>
+                                        <button class="add-to-cart-btn flex align-center"><img
+                                                src="assets/white-cart.png" alt="cart"> Add to cart</button>
+                                    </div>
+                                </div>
+
+                                <!-- slide4 -->
+                                <div class="popular-card best-sell-card swiper-slide">
+                                    <div class="popular-card-img-container"><img src="assets/coconut-flakes.png"
+                                            alt=""/ />
+                                    </div>
+                                    <div class=" popular-discount popular-discount-percent best-sell-card-percent">66%
+                                    </div>
+                                    <div class=" popular-discount popular-discount-sale">Sale</div>
+                                    <div class="popular-card-body best-sell-card-body">
+                                        <p class="popular-card-category">Fresh Fruit</p>
+                                        <h3 class="popular-card-heading nav-items">Seeds of Change Organic Red
+                                            Rice</h3>
+                                        <div class="rating flex">
+                                            <div class="rating-stars flex">
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                            </div>
+                                            <span>1</span>
+                                        </div>
+                                        <div class="popular-card-price best-sell-card-price">
+                                            <span>$22.85</span><span>$24.80</span>
+                                        </div>
+                                        <div class="quantity-bar"><span></span></div>
+                                        <div class="best-sell-card-quantity flex">
+                                            <p class="small-body-p">Sold : 108 / 387</p>
+                                            <p class="small-body-p">27.91%</p>
+                                        </div>
+                                        <button class="add-to-cart-btn flex align-center"><img
+                                                src="assets/white-cart.png" alt="cart"> Add to cart</button>
+                                    </div>
+                                </div>
+
+                                <!-- slide5 -->
+                                <div class="popular-card best-sell-card swiper-slide">
+                                    <div class="popular-card-img-container"><img src="assets/orange-sahale.jpg" alt=""/>
+                                    </div>
+                                    <div class=" popular-discount popular-discount-percent best-sell-card-percent">66%
+                                    </div>
+                                    <div class=" popular-discount popular-discount-sale">Sale</div>
+                                    <div class="popular-card-body best-sell-card-body">
+                                        <p class="popular-card-category">Fresh Fruit</p>
+                                        <h3 class="popular-card-heading nav-items">Seeds of Change Organic Red
+                                            Rice</h3>
+                                        <div class="rating flex">
+                                            <div class="rating-stars flex">
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                                <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                            </div>
+                                            <span>1</span>
+                                        </div>
+                                        <div class="popular-card-price best-sell-card-price">
+                                            <span>$22.85</span><span>$24.80</span>
+                                        </div>
+                                        <div class="quantity-bar"><span></span></div>
+                                        <div class="best-sell-card-quantity flex">
+                                            <p class="small-body-p">Sold : 108 / 387</p>
+                                            <p class="small-body-p">27.91%</p>
+                                        </div>
+                                        <button class="add-to-cart-btn flex align-center"><img
+                                                src="assets/white-cart.png" alt="cart"> Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Deals Of The Day section  -->
+        <section class="main-container">
+            <div class="deals-container">
+                <div class="deals-top-container flex ">
+                    <div class="section-heading">Deals Of The Day</div>
+                    <div class="all-deals flex align-center"><a href="" class="flex">All Deals <span><img
+                                    src="assets/grey-arrow-right.svg" alt=""/></span></a></div>
+                </div>
+                <div class="deals-cards-container">
+                    <div class="deal-card">
+                        <div class="timer-wrapper flex">
+                            <div class="timer-card">
+                                <div>00</div>
+                                <p>Days</p>
+
+                            </div>
+                            <div class="timer-card">
+                                <div>00</div>
+                                <p>Days</p>
+                            </div>
+                            <div class="timer-card">
+                                <div>00</div>
+                                <p>Days</p>
+                            </div>
+                            <div class="timer-card">
+                                <div>00</div>
+                                <p>Days</p>
+                            </div>
+                        </div>
+                        <div class="deal-overaly">
+                            <div class="nav-items">Organic Cage Grade A Large Eggs</div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price"><span>$22.85</span><span>$24.80</span></div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="deal-card deal-card2">
+                        <div class="timer-wrapper flex">
+                            <div class="timer-card">
+                                <div>00</div>
+                                <p>Days</p>
+
+                            </div>
+                            <div class="timer-card">
+                                <div>00</div>
+                                <p>Days</p>
+                            </div>
+                            <div class="timer-card">
+                                <div>00</div>
+                                <p>Days</p>
+                            </div>
+                            <div class="timer-card">
+                                <div>00</div>
+                                <p>Days</p>
+                            </div>
+                        </div>
+                        <div class="deal-overaly">
+                            <div class="nav-items">Organic Cage Grade A Large Eggs</div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price"><span>$22.85</span><span>$24.80</span></div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="deal-card deal-card3">
+                        <div class="timer-wrapper flex">
+                            <div class="timer-card">
+                                <div>00</div>
+                                <p>Days</p>
+
+                            </div>
+                            <div class="timer-card">
+                                <div>00</div>
+                                <p>Days</p>
+                            </div>
+                            <div class="timer-card">
+                                <div>00</div>
+                                <p>Days</p>
+                            </div>
+                            <div class="timer-card">
+                                <div>00</div>
+                                <p>Days</p>
+                            </div>
+                        </div>
+                        <div class="deal-overaly">
+                            <div class="nav-items">Organic Cage Grade A Large Eggs</div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price"><span>$22.85</span><span>$24.80</span></div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="deal-card deal-card4">
+                        <div class="timer-wrapper flex">
+                            <div class="timer-card">
+                                <div>00</div>
+                                <p>Days</p>
+
+                            </div>
+                            <div class="timer-card">
+                                <div>00</div>
+                                <p>Days</p>
+                            </div>
+                            <div class="timer-card">
+                                <div>00</div>
+                                <p>Days</p>
+                            </div>
+                            <div class="timer-card">
+                                <div>00</div>
+                                <p>Days</p>
+                            </div>
+                        </div>
+                        <div class="deal-overaly">
+                            <div class="nav-items">Organic Cage Grade A Large Eggs</div>
+                            <h3 class="card-body-text"><span>By </span>Hambger Hel</h3>
+                            <div class="price-container flex">
+                                <div class="popular-card-price"><span>$22.85</span><span>$24.80</span></div>
+                                <button class="cart-button top-bar-banner-text flex align-center">
+                                    <img src="assets/green-cart.svg" alt="cart-button" />Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Top Selling, Trending Products, Recently added, Top Rated cards section  -->
+        <section class="main-container">
+            <div class="top-products-wrapper flex">
+                <div class="top-product-card">
+                    <h3>Top Selling</h3>
+                    <div class="top-product-card-body">
+                        <div class="top-product-sub-card flex">
+                            <div class="top-product-sub-card-img"><img src="assets/yellow-pukka.png"
+                                    alt="product-image" />
+                            </div>
+                            <div class="top-product-card-item">
+                                <h3 class="popular-card-heading nav-items">Haagen Caramel Cone Ice Cream Boxed</h3>
+                                <div class="rating flex">
+                                    <div class="rating-stars flex">
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    </div>
+                                    <span>1</span>
+                                </div>
+                                <div class="popular-card-price flex align-center">
+                                    <span>$22.85</span>
+                                    <span>$24.80</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top-product-sub-card flex">
+                            <div class="top-product-sub-card-img"><img src="assets/dandy-blend.jpg"
+                                    alt="product-image" />
+                            </div>
+                            <div class="top-product-card-item">
+                                <h3 class="popular-card-heading nav-items">Haagen Caramel Cone Ice Cream Boxed</h3>
+                                <div class="rating flex">
+                                    <div class="rating-stars flex">
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    </div>
+                                    <span>1</span>
+                                </div>
+                                <div class="popular-card-price flex align-center">
+                                    <span>$22.85</span>
+                                    <span>$24.80</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top-product-sub-card flex">
+                            <div class="top-product-sub-card-img"><img src="assets/coconut-flakes.png"
+                                    alt="product-image" />
+                            </div>
+                            <div class="top-product-card-item">
+                                <h3 class="popular-card-heading nav-items">Haagen Caramel Cone Ice Cream Boxed</h3>
+                                <div class="rating flex">
+                                    <div class="rating-stars flex">
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    </div>
+                                    <span>1</span>
+                                </div>
+                                <div class="popular-card-price flex align-center">
+                                    <span>$22.85</span>
+                                    <span>$24.80</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="top-product-card">
+                    <h3>Trending Products</h3>
+                    <div class="top-product-card-body">
+                        <div class="top-product-sub-card flex">
+                            <div class="top-product-sub-card-img"><img src="assets/dark-green-shale.png"
+                                    alt="product-image" />
+                            </div>
+                            <div class="top-product-card-item">
+                                <h3 class="popular-card-heading nav-items">Haagen Caramel Cone Ice Cream Boxed</h3>
+                                <div class="rating flex">
+                                    <div class="rating-stars flex">
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    </div>
+                                    <span>1</span>
+                                </div>
+                                <div class="popular-card-price flex align-center">
+                                    <span>$22.85</span>
+                                    <span>$24.80</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top-product-sub-card flex">
+                            <div class="top-product-sub-card-img"><img src="assets/yellow-pukka.png"
+                                    alt="product-image" />
+                            </div>
+                            <div class="top-product-card-item">
+                                <h3 class="popular-card-heading nav-items">Haagen Caramel Cone Ice Cream Boxed</h3>
+                                <div class="rating flex">
+                                    <div class="rating-stars flex">
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    </div>
+                                    <span>1</span>
+                                </div>
+                                <div class="popular-card-price flex align-center">
+                                    <span>$22.85</span>
+                                    <span>$24.80</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top-product-sub-card flex">
+                            <div class="top-product-sub-card-img"><img src="assets/cafe-altura.png"
+                                    alt="product-image" />
+                            </div>
+                            <div class="top-product-card-item">
+                                <h3 class="popular-card-heading nav-items">Haagen Caramel Cone Ice Cream Boxed</h3>
+                                <div class="rating flex">
+                                    <div class="rating-stars flex">
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    </div>
+                                    <span>1</span>
+                                </div>
+                                <div class="popular-card-price flex align-center">
+                                    <span>$22.85</span>
+                                    <span>$24.80</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="top-product-card recently-added">
+                    <h3>Recently added</h3>
+                    <div class="top-product-card-body">
+                        <div class="top-product-sub-card flex">
+                            <div class="top-product-sub-card-img"><img src="assets/OrganicLarge Eggs.png"
+                                    alt="product-image" />
+                            </div>
+                            <div class="top-product-card-item">
+                                <h3 class="popular-card-heading nav-items">Haagen Caramel Cone Ice Cream Boxed</h3>
+                                <div class="rating flex">
+                                    <div class="rating-stars flex">
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    </div>
+                                    <span>1</span>
+                                </div>
+                                <div class="popular-card-price flex align-center">
+                                    <span>$22.85</span>
+                                    <span>$24.80</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top-product-sub-card flex">
+                            <div class="top-product-sub-card-img"><img src="assets/sweat-leaf.jpg"
+                                    alt="product-image" />
+                            </div>
+                            <div class="top-product-card-item">
+                                <h3 class="popular-card-heading nav-items">Haagen Caramel Cone Ice Cream Boxed</h3>
+                                <div class="rating flex">
+                                    <div class="rating-stars flex">
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    </div>
+                                    <span>1</span>
+                                </div>
+                                <div class="popular-card-price flex align-center">
+                                    <span>$22.85</span>
+                                    <span>$24.80</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top-product-sub-card flex">
+                            <div class="top-product-sub-card-img"><img src="assets/vegetablles-bowl.jpg"
+                                    alt="product-image" />
+                            </div>
+                            <div class="top-product-card-item">
+                                <h3 class="popular-card-heading nav-items">Haagen Caramel Cone Ice Cream Boxed</h3>
+                                <div class="rating flex">
+                                    <div class="rating-stars flex">
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    </div>
+                                    <span>1</span>
+                                </div>
+                                <div class="popular-card-price flex align-center">
+                                    <span>$22.85</span>
+                                    <span>$24.80</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="top-product-card top-rated">
+                    <h3>Top Rated</h3>
+                    <div class="top-product-card-body">
+                        <div class="top-product-sub-card flex">
+                            <div class="top-product-sub-card-img"><img src="assets/plate.jpg" alt="product-image" />
+                            </div>
+                            <div class="top-product-card-item">
+                                <h3 class="popular-card-heading nav-items">Haagen Caramel Cone Ice Cream Boxed</h3>
+                                <div class="rating flex">
+                                    <div class="rating-stars flex">
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    </div>
+                                    <span>1</span>
+                                </div>
+                                <div class="popular-card-price flex align-center">
+                                    <span>$22.85</span>
+                                    <span>$24.80</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top-product-sub-card flex">
+                            <div class="top-product-sub-card-img"><img src="assets/veggie-pops.png"
+                                    alt="product-image" />
+                            </div>
+                            <div>
+                                <h3 class="popular-card-heading nav-items">Haagen Caramel Cone Ice Cream Boxed</h3>
+                                <div class="rating flex">
+                                    <div class="rating-stars flex">
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    </div>
+                                    <span>1</span>
+                                </div>
+                                <div class="popular-card-price flex align-center">
+                                    <span>$22.85</span>
+                                    <span>$24.80</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top-product-sub-card flex">
+                            <div class="top-product-sub-card-img"><img src="assets/yellow-pukka.png"
+                                    alt="product-image" />
+                            </div>
+                            <div>
+                                <h3 class="popular-card-heading nav-items">Haagen Caramel Cone Ice Cream Boxed</h3>
+                                <div class="rating flex">
+                                    <div class="rating-stars flex">
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                        <img src="assets/star-svgrepo-com.svg" alt="rating-stars" />
+                                    </div>
+                                    <span>1</span>
+                                </div>
+                                <div class="popular-card-price flex align-center">
+                                    <span>$22.85</span>
+                                    <span>$24.80</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- shop-by-category -->
+        <section class="main-container shop-by-category">
+            <div class="shop-by-category-container">
+                <div class="shop-by-category-top flex">
+                    <div class="shop-by-category-left flex">
+                        <h2 class="section-heading">Shop by Categories</h2>
+                        <div class="section-nav-link">
+                            <a href="">All Categories <span>
+                                    <img src="assets/arrow-right.svg" alt=""/>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="best-sell-slider-buttons flex align-center">
+                        <button class="slider-arrow-btns shop-by-category-swiper-prev" tabindex="0"
+                            aria-label="Previous slide"><img src="assets/arrow-left.svg" alt="arrow-left"></button>
+                        <button class="slider-arrow-btns shop-by-category-swiper-next" tabindex="0"
+                            aria-label="Next slide"><img src="assets/arrow-right.svg" alt="arrow-right"></button>
+                    </div>
+                </div>
+                <div class="shop-by-category-cards swiper shop-by-category-swiper">
+
+                    <div class="swiper-wrapper">
+                        <div class="shop-by-category-card flex swiper-slide">
+                            <div class="shop-by-category-img">
+                                <img src="assets/category-3.svg.svg" alt=""/>
+                            </div>
+
+                            <div class="shop-by-category-card-text nav-items">Milks and Dairies</div>
+                        </div>
+
+                        <div class="shop-by-category-card flex swiper-slide">
+                            <div class="shop-by-category-img">
+                                <img src="assets/category-1.svg.svg" alt=""/>
+                            </div>
+
+                            <div class="shop-by-category-card-text nav-items">Milks and Dairies</div>
+                        </div>
+
+                        <div class="shop-by-category-card flex swiper-slide">
+                            <div class="shop-by-category-img">
+                                <img src="assets/category-2.svg fill.svg" alt=""/>
+                            </div>
+
+                            <div class="shop-by-category-card-text nav-items">Milks and Dairies</div>
+                        </div>
+
+                        <div class="shop-by-category-card flex swiper-slide">
+                            <div class="shop-by-category-img">
+                                <img src="assets/category-3.svg.svg" alt=""/>
+                            </div>
+
+                            <div class="shop-by-category-card-text nav-items">Milks and Dairies</div>
+                        </div>
+
+                        <div class="shop-by-category-card flex swiper-slide">
+                            <div class="shop-by-category-img">
+                                <img src="assets/category-4.svg.svg" alt=""/>
+                            </div>
+
+                            <div class="shop-by-category-card-text nav-items">Milks and Dairies</div>
+                        </div>
+
+                        <div class="shop-by-category-card flex swiper-slide">
+                            <div class="shop-by-category-img">
+                                <img src="assets/category-2.svg fill.svg" alt=""/>
+                            </div>
+
+                            <div class="shop-by-category-card-text nav-items">Milks and Dairies</div>
+                        </div>
+
+                        <div class="shop-by-category-card flex swiper-slide">
+                            <div class="shop-by-category-img">
+                                <img src="assets/category-3.svg.svg" alt=""/>
+                            </div>
+
+                            <div class="shop-by-category-card-text nav-items">Milks and Dairies</div>
+                        </div>
+
+                        <div class="shop-by-category-card flex swiper-slide">
+                            <div class="shop-by-category-img">
+                                <img src="assets/category-4.svg.svg" alt=""/>
+                            </div>
+
+                            <div class="shop-by-category-card-text nav-items">Milks and Dairies</div>
+                        </div>
+
+                        <div class="shop-by-category-card flex swiper-slide">
+                            <div class="shop-by-category-img">
+                                <img src="assets/category-2.svg fill.svg" alt=""/>
+                            </div>
+
+                            <div class="shop-by-category-card-text nav-items">Milks and Dairies</div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- newsletter section  -->
+        <section class="main-container">
+            <div class="newsletter-container flex">
+                <div class="newsletter-wrapper flex">
+                    <h2 class="hero-heading newsletter-heading">Stay home & get your daily needs from our shop</h2>
+                    <p>Start Your Daily Shopping with <span>Nest Mart</span></p>
+                    <div class="hero-input">
+                        <input type="text" placeholder="Your email address">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+                <div class="newsletter-image"><img src="assets/vegetables-box-guy.png" alt=""/ /></div>
+            </div>
+        </section>
+
+        <!-- offer deals delivery shipping cards  -->
+        <section class="main-container">
+            <div class="offer-container flex">
+                <div class="offer-card flex">
+                    <div class="offer-card-image"><img src="assets/green-tag.svg" alt="price-icon" /></div>
+                    <div class="offer-card-text-section flex">
+                        <h3>Best prices & offers</h3>
+                        <p class="user-button-text">Orders $50 or more</p>
+                    </div>
+                </div>
+
+                <div class="offer-card flex">
+                    <div class="offer-card-image"><img src="assets/handshake.svg" alt="price-icon" /></div>
+                    <div class="offer-card-text-section flex">
+                        <h3>Best prices & offers</h3>
+                        <p class="user-button-text">Orders $50 or more</p>
+                    </div>
+                </div>
+
+                <div class="offer-card flex">
+                    <div class="offer-card-image"><img src="assets/bill.svg" alt="price-icon" /></div>
+                    <div class="offer-card-text-section flex">
+                        <h3>Best prices & offers</h3>
+                        <p class="user-button-text">Orders $50 or more</p>
+                    </div>
+                </div>
+
+                <div class="offer-card flex">
+                    <div class="offer-card-image"><img src="assets/customer-support.svg" alt="price-icon" /></div>
+                    <div class="offer-card-text-section flex">
+                        <h3>Best prices & offers</h3>
+                        <p class="user-button-text">Orders $50 or more</p>
+                    </div>
+                </div>
+
+                <div class="offer-card flex">
+                    <div class="offer-card-image"><img src="assets/orderbox.svg" alt="price-icon" /></div>
+                    <div class="offer-card-text-section flex">
+                        <h3>Best prices & offers</h3>
+                        <p class="user-button-text">Orders $50 or more</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="main-container">
+            <div class="footer-wrapper flex">
+                <div class="footer-logo-section">
+                    <div class="footer-logo"><img src="assets/footerlofo.png" alt="Logo" /></div>
+                    <p>Awesome grocery store website
+                        template</p>
+                    <ul class="flex">
+                        <li>
+                            <span><img src="assets/green-location.svg" alt="location" />Address</span> 5171 W Campbell
+                            Ave
+                            undefined
+                            Kent, Utah 53127 United States
+                        </li>
+                        <li><span><img src="assets/green-headphones.svg" alt="contact" />Call us</span>
+                            (+91)-540-025-124553
+                        </li>
+                        <li><span><img src="assets/green-message.svg" alt="email" /></span><a href="">sale@Nest.com</a>
+                        </li>
+                        <li><span><img src="assets/green-clock.svg" alt="clock" />Hours</span>10:00 - 18:00, Mon - Sat
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-navigation-column">
+                    <h3>Company</h3>
+                    <ul class="flex">
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Delivery Information</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Support Center</a></li>
+                        <li><a href="">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-navigation-column">
+                    <h3>Account</h3>
+                    <ul class="flex">
+                        <li><a href="">Sign In</a></li>
+                        <li><a href="">View Cart</a></li>
+                        <li><a href="">My Wishlist</a></li>
+                        <li><a href="">Track My Order</a></li>
+                        <li><a href="">Help Ticket</a></li>
+                        <li><a href="">Shipping Details</a></li>
+                        <li><a href="">Compare products</a></li>
+                    </ul>
+                </div>
+                <div class="footer-navigation-column">
+                    <h3>Corporate</h3>
+                    <ul class="flex">
+                        <li><a href="">Become a Vendor</a></li>
+                        <li><a href="">Affiliate Program</a></li>
+                        <li><a href="">Farm Business</a></li>
+                        <li><a href="">Farm Careers</a></li>
+                        <li><a href="">Our Suppliers</a></li>
+                        <li><a href="">Accessibility</a></li>
+                        <li><a href="">Promotions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-navigation-column">
+                    <h3>Popular</h3>
+                    <ul class="flex">
+                        <li><a href="">Milk & Flavoured Milk</a></li>
+                        <li><a href="">Butter and Margarine</a></li>
+                        <li><a href="">Eggs Substitutes</a></li>
+                        <li><a href="">Marmalades</a></li>
+                        <li><a href="">Sour Cream and Dips</a></li>
+                        <li><a href="">Tea & Kombucha</a></li>
+                        <li><a href="">Cheese</a></li>
+                    </ul>
+                </div>
+                <div class="footer-right-section">
+                    <h3>Install App</h3>
+                    <p>From App Store or Google Play</p>
+                    <div class="logo-container flex">
+                        <span><img src="assets/google-lay.jpg" alt="Play-store" /></span>
+                        <span><img src="assets/app-store.jpg" alt="apple-store" /></span>
+                    </div>
+                    <p>Secured Payment Gateways</p>
+                    <div class="bottom-right-image"><span><img src="assets/payment-methods.png" alt=""/ /></span></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-bar-wrapper">
+            <div class="footer-bottom-bar flex main-container">
+                <p>© 2023, Nest – WordPress Ecommerce Template.
+                    <br>All rights reserved
+                </p>
+                <div class="footer-bottom-bar-center flex align-center">
+                    <div class=" flex align-center contact-details-container">
+                        <span><img src="assets/phone.svg" alt="contact" /></span>
+                        <div class="contact-details ">
+                            <p class="top-bar-banner-text contact-number">1900646666</p>
+                            <p class="small-body-p">Working 8:00 - 22:00</p>
+                        </div>
+                    </div>
+                    <div class=" flex align-center contact-details-container">
+                        <span><img src="assets/phone.svg" alt="contact" /></span>
+                        <div class="contact-details ">
+                            <p class="top-bar-banner-text contact-number">1900646666</p>
+                            <p class="small-body-p">24/7 Support Center</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links-wrapper flex">
+                    <div class="social flex align-center   ">
+                        <p class="nav-items">Follow Us</p>
+                        <span><img src="assets/facebook.svg" alt="facebook" /></span>
+                        <span><img src="assets/twitter.svg" alt="twitter" /></span>
+                        <span><img src="assets/skype.svg" alt="skype" /></span>
+                        <span><img src="assets/instagram.svg" alt="instagram" /></span>
+                    </div>
+                    <div class="subscribe-discount">Up to 15% discount on your first subscribe</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
