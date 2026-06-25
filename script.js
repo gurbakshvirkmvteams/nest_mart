@@ -1,4 +1,3 @@
-{
     const swiper = new Swiper('.swiper', {
         direction: 'horizontal',
         loop: true,
@@ -43,6 +42,10 @@
             el: ".hswiper-pagination",
             clickable: true,
         },
+         navigation: {
+            nextEl: '.hero-swiper-button-next',
+            prevEl: '.hero-swiper-button-prev',
+        },
         slidesPerView: 1,       /* Always 1 slide across all screens */
 
         // --- RESPONSIVE BREAKPOINTS ---
@@ -52,10 +55,6 @@
             768: {              /* Desktop/Tablet spacing adjustments */
                 spaceBetween: 20,
             }
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
         },
     });
 
@@ -118,8 +117,6 @@
 
         }
     });
-}
-
 const hamburgerBtn = document.querySelector('.hamburger');
 const sidebarMenu = document.querySelector('.sidebar-menu');
 const closeSidemenu = document.querySelectorAll('.close-sidebar-control')
