@@ -75,7 +75,7 @@ const bestSellswiper = new Swiper('.best-sell-swiper', {
     },
 
     // --- RESPONSIVE BREAKPOINTS ---
-    slidesPerView: 2,       /* Default for Mobile (< 576px) */
+    slidesPerView: 1,       /* Default for Mobile (< 576px) */
     spaceBetween: 15,
 
     breakpoints: {
