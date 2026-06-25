@@ -174,6 +174,10 @@ input {
     border-right: 1px solid var(--card-border);
 }
 
+.top-info-bar-buttons div:last-child,
+.top-info-bar-contact div:last-child{
+border-right: none;
+}
 .top-info-bar-contact .small-body-p a {
     color: var(--primary-color-green);
 }
@@ -335,17 +339,18 @@ input {
     letter-spacing: 0%;
     color: var(--small-p-color);
 }
-.wishlist .user-button-text span, .cart .user-button-text span{
+.wishlist .user-button-text span, .cart .user-button-text span, .compare .user-button-text span{
     position: relative;
 }
-.wishlist .user-button-text span:first-child{
+.wishlist .user-button-text span span ,.cart .user-button-text span span, .compare .user-button-text span span{
     position: absolute;
-    right: 0;
-    top: -10%;
+    top: 0%;
+    left: 12px;
+    transform: translateY(-80%);
     background-color: var(--primary-color-green);
-    padding: 2px 6px;
+     padding: 3px 8px;
     border-radius: 50%;
-    font-size: 10px;
+    font-size: 12px;
     color: var(--white-color);
 }
 .nav-categories-wrapper {
@@ -792,6 +797,7 @@ input {
 
 .popular-card-price {
     gap: 8px;
+    display: flex;
 }
 
 .popular-card-price span {
@@ -1256,6 +1262,13 @@ input {
     padding-bottom: 30px;
 }
 
+.footer-logo-section li span{
+    /* display: flex ; */
+    padding-right: 5px;
+}
+.footer-logo-section li a{
+    color: var(--primary-color-green);
+}
 .footer-logo {
     padding-bottom: 33px;
 }
@@ -1884,7 +1897,7 @@ input {
 }
 
 .contact-number:hover,
-.top-info-bar-contact .small-body-p a:hover {
+.top-info-bar-contact .small-body-p a:hover, .footer-logo-section li a:hover {
     text-decoration: underline;
     text-decoration-color: var(--primary-color-green);
     text-decoration-thickness: 2px;
