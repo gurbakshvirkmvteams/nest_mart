@@ -144,7 +144,7 @@ input {
     color: var(--small-p-color);
 }
 
-.top-bar-banner-text {
+.top-bar-banner-text a , .cart-button.top-bar-banner-text{
     font-family: var(--secondary-font);
     font-weight: 700;
     font-style: Bold;
@@ -405,7 +405,7 @@ border-right: none;
     gap: 12px;
 }
 
-.contact-number {
+.contact-number a{
     font-family: var(--primary-font);
     font-weight: 700;
     font-style: Bold;
@@ -842,20 +842,33 @@ border-right: none;
 }
 
 /* daily best-sell */
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.best-sell-banner-card{
+    grid-column: span 1;
+
+}
+.best-sell-cards-container2{
+    grid-column: span 3;
+}
+
 .best-sell-swiper {
     overflow: hidden;
+    width: 100%;
 }
 
-.daily-best-sells-container {
-    gap: 20px;
+.best-sell-slider-buttons2{
+    width: 74%;
+    
+}
+.daily-section-top2{
     padding-top: 50px;
+    padding-bottom: 18px;
 }
-
-.daily-best-sells-left {
-    width: 23%;
-}
-
-.daily-section-top {
+ .daily-section-top2, .best-sell-slider-buttons2 {
     justify-content: space-between;
 }
 
@@ -864,9 +877,6 @@ border-right: none;
     display: none;
 }
 
-.daily-best-sells-left .section-heading {
-    padding-bottom: 27px;
-}
 
 .best-sell-banner-card {
     background: url('assets/leaf.png');
@@ -882,20 +892,18 @@ border-right: none;
     line-height: 48px;
     letter-spacing: 0%;
 }
-
-.daily-best-sells-right {
-    width: 77%;
-    min-width: 0;
-
-}
-
 .best-sell-slider-buttons {
     gap: 12px;
 }
 
 .best-sell-cards-container {
-    width: 100%;
+    /* width: 100%; */
     padding-top: 17px;
+}
+.best-sell-cards-container {
+    /* flex: 1; */
+    min-width: 0;
+    width: auto;
 }
 
 .best-sell-card-body {
@@ -910,6 +918,7 @@ border-right: none;
     gap: 4px;
 }
 
+
 .quantity-bar {
     height: 5px;
     border-radius: 4px;
@@ -919,8 +928,7 @@ border-right: none;
 
 }
 
-.best-sell-card-quantity,
-.best-sell-tab-buttons-container {
+.best-sell-card-quantity{
     justify-content: space-between;
 }
 
@@ -1004,14 +1012,14 @@ border-right: none;
 }
 
 .timer-wrapper {
-    gap: 4px;
+    gap: 8px;
 }
 
 .timer-card {
     max-width: 60px;
     max-height: 57px;
     border-radius: 4px;
-    padding: 5px;
+    padding: 6px 12px;
     background: var(--white-color);
     width: 100%;
 }
@@ -1220,7 +1228,7 @@ border-right: none;
     color: var(--body-p-color);
 }
 
-.social-links-wrapper div button span {
+.social-links-wrapper div button a {
     width: 30px;
     height: 30px;
     border-radius: 30px;
@@ -1456,6 +1464,12 @@ border-right: none;
 .footer-bottom-bar-center {
     gap: 40px;
 }
+.timer-wrapper {
+    gap: 4px;
+}
+.timer-card {
+    padding: 4px 8px;
+}
 }
 
 @media (max-width:1080px) {
@@ -1514,19 +1528,22 @@ border-right: none;
         row-gap: 100px;
     }
 
-    .daily-best-sells-container {
+    .daily-section-top2{
         flex-direction: column;
-        gap: 0px;
+        gap: 10px;
     }
-
-    .daily-best-sells-right,
-    .daily-best-sells-left {
-        width: 100%;
-    }
-
+.best-sell-slider-buttons2 {
+    width: 100%;
+}
+    
     .best-sell-banner-card {
         display: none;
     }
+    .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+}
 
     .footer-bottom-bar-center {
         gap: 24px;
@@ -1644,7 +1661,12 @@ border-right: none;
     .best-sell-tab-buttons-wrapper {
         gap: 16px;
     }
-
+        .daily-section-top2 {
+        flex-direction: row;
+    }
+    .best-sell-slider-buttons2{
+        display: none;
+    }
     .popular-card-price {
         flex-direction: column;
         gap: 0px;
@@ -1662,9 +1684,9 @@ border-right: none;
         padding: 0px 14px;
     }
 
-    .best-sell-tab-buttons-container {
+    /* .best-sell-tab-buttons-container {
         display: none;
-    }
+    } */
 
     .footer-wrapper {
         padding-top: 100px;
@@ -1805,6 +1827,14 @@ border-right: none;
         gap: 16px;
         flex-wrap: wrap;
     }
+        .daily-section-top2 {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .daily-section-top2 {
+    padding-top: 35px;
+    padding-bottom: 18px;
+}
 }
 
 @media (max-width:430px) {
@@ -1837,15 +1867,7 @@ border-right: none;
         row-gap: 28px;
     }
 
-    .daily-section-top {
-        justify-content: space-between;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .daily-best-sells-left .section-heading {
-        padding-bottom: 12px;
-    }
+   
 
     .footer-bottom-bar {
         gap: 20px;
@@ -1946,4 +1968,7 @@ border-right: none;
     color: var(--body-p-color);
     background-color: var(--light-green-color-bg);
     border: 1px solid var(--primary-color-green);
+}
+.popular-cards-tab-buttons .tab-btns.btn-active{
+    color: var(--primary-color-green);
 }
